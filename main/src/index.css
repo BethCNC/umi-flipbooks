@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Your existing CSS variables */
+  }
+
+  body {
+    @apply bg-white text-umi-rest-navy-500;
+  }
+}
+
+@layer components {
+  .flipbook-view {
+    @apply relative;
+  }
+
+  .page {
+    @apply bg-white rounded-lg shadow-lg overflow-hidden;
+  }
+
+  .page-content {
+    @apply w-full h-full;
+  }
+
+  .viewer-controls {
+    @apply absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2 
+           bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-md 
+           border border-umi-calm-blue-100;
+  }
+}
