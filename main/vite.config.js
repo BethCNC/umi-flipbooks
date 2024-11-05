@@ -9,5 +9,10 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  assetsInclude: ['**/*.pdf', '**/*.gif', '**/*.png'],
+  assetsInclude: ['**/*.pdf', '**/*.png', '**/*.jpg', '**/*.gif'],
+  base: '/',
+  server: {
+    host: true,
+    port: 5173,
+  },
 });

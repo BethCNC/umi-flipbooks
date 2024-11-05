@@ -1,14 +1,14 @@
 import React from 'react';
-import { ResourceViewer } from '@/components/ui/FlipBook';
+import { ResourceViewer } from './components/ui/FlipBook';
 
-// Import assets with correct paths using kebab-case
-import brandGuidelinesCover from '@/assets/images/umi-wellness-brand-guidelines-cover-image.png';
-import membershipHandbookCover from '@/assets/images/membership-handbook-cover-image.png';
-import brandImage from '@/assets/images/brand-images/umi-imagesartboard-11.png';
+// Update image paths to match exact case and structure
+import brandGuidelinesCover from './assets/images/umi-wellness-brand-guidelines-cover-image.png';
+import membershipHandbookCover from './assets/images/membership-handbook-cover-image.png';
+import brandImage from './assets/images/brand-images/umi-images-artboard-11.png';
 
-// Import PDFs with correct kebab-case file names
-import brandGuidelinesPdf from '@/assets/pdf/umi-wellness-brand-guidelines.pdf';
-import membershipHandbookPdf from '@/assets/pdf/umi-wellness-membership-handbook-by-beth.pdf';
+// Update PDF paths
+import brandGuidelinesPdf from './assets/pdf/umi-wellness-brand-guidelines.pdf';
+import membershipHandbookPdf from './assets/pdf/umi-wellness-membership-handbook-by-beth.pdf';
 
 const App = () => {
   return (
