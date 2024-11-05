@@ -24,14 +24,24 @@ dist-ssr
 *.sln
 *.sw?
 
-# Large original images
-main/src/assets/images/brand-images/*.png
-main/src/assets/images/mockups/*.png
+# Image directories
+/main/src/assets/images/**
+!/main/src/assets/images/.gitkeep
 
-# Keep optimized versions
-!main/src/assets/images/brand-images/compressed/*_optimized.png
-!main/src/assets/images/mockups/compressed/*_optimized.png
+# Exclude specific directories you want to track (if any)
+!/main/src/assets/images/icons/
+!/main/src/assets/images/logos/
+
+# Specific file types
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
 
 # System files
 .DS_Store
 **/.DS_Store
+
+main/src/assets/images/brand-images
+

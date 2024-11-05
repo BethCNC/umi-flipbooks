@@ -10,8 +10,4 @@ export default defineConfig({
     },
   },
   assetsInclude: ['**/*.pdf', '**/*.gif', '**/*.png'],
-  server: {
-    host: true,
-    port: 5173,
-  },
 });
