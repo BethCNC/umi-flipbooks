@@ -1,4 +1,4 @@
-# Logs
+# Logs and dependencies
 logs
 *.log
 npm-debug.log*
@@ -6,42 +6,35 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
 node_modules
 dist
 dist-ssr
 *.local
-/.DS_Store
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
-# Image directories
-/main/src/assets/images/**
-!/main/src/assets/images/.gitkeep
+# Image and asset files
+/main/src/assets/images/**/*.png
+/main/src/assets/images/**/*.jpg
+/main/src/assets/images/**/*.gif
+/main/src/assets/images/brand-images/
+/main/src/assets/images/mockups/
+/main/src/assets/pdf/
 
-# Exclude specific directories you want to track (if any)
-!/main/src/assets/images/icons/
-!/main/src/assets/images/logos/
-
-# Specific file types
-*.psd
-*.ai
-*.sketch
-*.fig
-*.xd
+# Keep optimized versions if needed
+!/main/src/assets/images/**/*_optimized.png
+!/main/src/assets/images/**/*_optimized.jpg
+!/main/src/assets/images/**/*_optimized.gif
 
 # System files
 .DS_Store
 **/.DS_Store
-
-main/src/assets/images/brand-images
 
