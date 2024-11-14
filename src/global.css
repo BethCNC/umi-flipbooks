@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("/public/Neulis Cursive_Regular.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("/public/Neulis Cursive_Bold.otf");
+  font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
