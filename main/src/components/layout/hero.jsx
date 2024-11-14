@@ -13,7 +13,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative w-full min-h-[90vh] overflow-hidden">
+    <section className="relative w-full min-h-screen overflow-hidden">
       {/* Background Video */}
       <video
         ref={videoRef}
@@ -26,29 +26,38 @@ const Hero = () => {
         <source src="/src/assets/motion/hero-gradient.mp4" type="video/mp4" />
       </video>
 
-      {/* White Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/50 to-white/30" />
-
-      {/* Content Container */}
-      <div className="relative z-10 container mx-auto px-[var(--layout-margins)] py-[var(--layout-gutter)]">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[var(--layout-grid-gap)] items-center">
-          {/* Text Content */}
-          <div>
-            <h1 className="text-[64px] font-neulisCursive text-[#1e293b] leading-tight mb-6">
-              Bridging the gap between traditional medical care & holistic wellness
+      {/* Content Container with Fixed Padding */}
+      <div className="relative z-10 w-full min-h-screen flex">
+        {/* Fixed Padding Container */}
+        <div className="m-[80px] w-full">
+          {/* Glass Card */}
+          <div className="w-full h-full glass-card p-[80px] flex flex-col">
+            {/* Title */}
+            <h1 className="text-[96px] font-bold leading-[120px] text-center">
+              Umi Wellness Center
             </h1>
-            <p className="text-xl font-neulisSans text-[#1e293b]/80">
-              Experience a new approach to healthcare that combines the best of both worlds
-            </p>
-          </div>
 
-          {/* Logo */}
-          <div className="flex justify-end">
-            <img 
-              src={brandLogoCombined}
-              alt="UMI Wellness Center"
-              className="w-auto h-[348px]"
-            />
+            {/* Spacer */}
+            <div className="flex-grow" />
+
+            {/* Content Row */}
+            <div className="flex justify-between items-center">
+              {/* Tagline Container with Max Width */}
+              <div className="w-[467px]">
+                <p className="text-[48px] leading-[72px] font-medium text-text-secondary">
+                  Bridging the gap between traditional medical care & holistic wellness
+                </p>
+              </div>
+
+              {/* Logo */}
+              <div className="w-[177px] flex-shrink-0">
+                <img
+                  src={brandLogoCombined}
+                  alt="UMI Wellness Center"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

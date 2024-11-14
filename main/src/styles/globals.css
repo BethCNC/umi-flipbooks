@@ -7,3 +7,11 @@
     @apply leading-[normal] m-0;
   }
 }
+
+:root {
+  --layout-margins: 2rem;
+  --layout-gutter: 3rem;
+  --layout-margins-mx: 2.5rem;
+  --layout-hero-space-between: 2rem;
+  --radius-l: 1rem;
+}
