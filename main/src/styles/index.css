@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Neulis Sans';
+  src: url('../fonts/NeulisSans-Regular.woff2') format('woff2'),
+       url('../fonts/NeulisSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neulis Cursive';
+  src: url('../fonts/NeulisCursive-Regular.woff2') format('woff2'),
+       url('../fonts/NeulisCursive-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Layout */
+    --layout-width: 1280px;
+    --layout-margins: 80px;
+    --layout-gutter: 24px;
+    --layout-grid-gap: 32px;
+
+    /* Colors - UMI Brand */
+    --umi-peace-green-50: rgba(236, 242, 233, 1);
+    --umi-peace-green-500: rgba(159, 191, 143, 1);
+    --umi-peace-green-900: rgba(53, 64, 48, 1);
+    --umi-rest-navy-50: rgba(210, 213, 217, 1);
+    --umi-rest-navy-500: rgba(29, 46, 64, 1);
+    --umi-rest-navy-900: rgba(10, 15, 21, 1);
+    --umi-calm-blue-50: rgba(231, 241, 242, 1);
+    --umi-calm-blue-500: rgba(134, 186, 191, 1);
+    --umi-calm-blue-900: rgba(45, 62, 64, 1);
+  }
+
+  body {
+    @apply leading-[normal] m-0;
+    font-family: 'Neulis Sans', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Neulis Cursive', serif;
+  }
+}
+
+@layer components {
+  /* Add padding to body to account for fixed navbar */
+  body {
+    @apply pt-[81px]; /* Match navbar height */
+  }
+
+  .container {
+    @apply max-w-[var(--layout-width)] mx-auto px-4 md:px-6 lg:px-8;
+  }
+}
