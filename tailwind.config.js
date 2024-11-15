@@ -2,10 +2,11 @@
 const { fontFamily } = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
+  darkMode: ["class"],
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './src/**/*.{js,jsx}',
+    './index.html',
   ],
   theme: {
     extend: {
@@ -16,7 +17,10 @@ export default {
       colors: {
         'text-primary': 'var(--text-primary)',
         'text-secondary': 'var(--text-secondary)',
-      }
+      },
+      aspectRatio: {
+        '16/9': '16 / 9',
+      },
     },
   },
   plugins: [],
