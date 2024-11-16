@@ -3,8 +3,8 @@ import { Navbar } from "../components/layout/Navbar"
 import Hero from '../components/layout/hero'
 import { MockupCarousel } from '../components/layout/MockupCarousel'
 import { MockupGallery } from '../components/layout/MockupGallery'
-import { BrandGuidelinesFlipbook } from './components/layout/BrandGuidelinesFlipbook';
-import { MembershipHandbookFlipbook } from './components/layout/MembershipHandbookFlipbook';
+import { BrandGuidelinesFlipbook } from '../components/layout/BrandGuidelinesFlipbook'
+import { MembershipHandbookFlipbook } from '../components/layout/MembershipHandbookFlipbook'
 
 function App() {
   return (
