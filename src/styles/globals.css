@@ -102,7 +102,14 @@
 
   /* PDF Flipbook styles */
   .page {
-    @apply bg-white rounded-xl shadow-md transition-transform duration-300;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .page > canvas {
+    width: 100%;
+    height: auto;
   }
 
   .page.--left {
@@ -130,6 +137,15 @@
   .page-flip-exit-active {
     transform: rotateY(-360deg);
     transition: transform 0.5s ease-in-out;
+  }
+
+  /* Container styles from your Figma specs */
+  .flipbook-container {
+    padding: var(--layout-margins);
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
   }
 }
 

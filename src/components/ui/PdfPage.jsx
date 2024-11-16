@@ -1,25 +1,29 @@
 import React, { useEffect, useRef } from 'react';
 import * as pdfjsLib from 'pdfjs-dist';
 
-// Set up PDF.js worker
-pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
+// Ensure we're using the latest PDF.js worker
+const workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
+pdfjsLib.GlobalWorkerOptions.workerSrc = workerSrc;
 
 export function PdfPage({ pageNumber, pdfUrl, width, height }) {
   const canvasRef = useRef(null);
 
   useEffect(() => {
-    const renderPage = async () => {
+    let mounted = true;
+    const canvas = canvasRef.current;
+    const context = canvas?.getContext('2d');
+
+    async function renderPage() {
       try {
-        // Load the PDF document
-        const pdf = await pdfjsLib.getDocument(pdfUrl).promise;
+        const loadingTask = pdfjsLib.getDocument(pdfUrl);
+        const pdf = await loadingTask.promise;
+        
+        if (!mounted) return;
+        
         const page = await pdf.getPage(pageNumber);
-
-        // Get the canvas context
-        const canvas = canvasRef.current;
-        const context = canvas.getContext('2d');
-
-        // Calculate scale to fit the container while maintaining aspect ratio
         const viewport = page.getViewport({ scale: 1.0 });
+        
+        // Calculate scale to fit the container
         const scale = Math.min(width / viewport.width, height / viewport.height);
         const scaledViewport = page.getViewport({ scale });
 
@@ -27,25 +31,37 @@ export function PdfPage({ pageNumber, pdfUrl, width, height }) {
         canvas.width = scaledViewport.width;
         canvas.height = scaledViewport.height;
 
-        // Render the PDF page
-        await page.render({
+        // Render PDF page
+        const renderContext = {
           canvasContext: context,
-          viewport: scaledViewport
-        }).promise;
+          viewport: scaledViewport,
+          enableWebGL: true
+        };
 
+        await page.render(renderContext).promise;
       } catch (error) {
-        console.error('Error rendering PDF page:', error);
+        console.error('Error rendering page:', error);
       }
-    };
+    }
 
-    renderPage();
+    if (canvas && context) {
+      renderPage();
+    }
+
+    return () => {
+      mounted = false;
+    };
   }, [pageNumber, pdfUrl, width, height]);
 
   return (
     <div className="pdf-page" style={{ width, height }}>
-      <canvas 
+      <canvas
         ref={canvasRef}
-        className="w-full h-full object-contain"
+        className="w-full h-full"
+        style={{
+          display: 'block',
+          backgroundColor: '#fff'
+        }}
       />
     </div>
   );

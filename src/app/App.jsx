@@ -13,10 +13,18 @@ function App() {
       <Hero />
       <MockupCarousel />
       <MockupGallery />
-      <section className="w-full space-y-32 py-20">
-        <BrandGuidelinesFlipbook />
-        <MembershipHandbookFlipbook />
-      </section>
+      <div className="container mx-auto px-4">
+        <section className="py-20 space-y-16">
+          <div className="w-full">
+            <h2 className="text-3xl font-bold mb-8">Brand Guidelines</h2>
+            <BrandGuidelinesFlipbook />
+          </div>
+          <div className="w-full">
+            <h2 className="text-3xl font-bold mb-8">Membership Handbook</h2>
+            <MembershipHandbookFlipbook />
+          </div>
+        </section>
+      </div>
     </div>
   )
 }

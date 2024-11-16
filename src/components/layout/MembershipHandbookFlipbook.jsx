@@ -6,6 +6,9 @@ export function MembershipHandbookFlipbook() {
     <PdfFlipbook 
       pdfUrl="/src/assets/pdf/umi-membership-handbook.pdf"
       title="Membership Handbook"
+      pageSize="Letter"
+      orientation="portrait"
+      totalSpreads={23}
     />
   );
 }
