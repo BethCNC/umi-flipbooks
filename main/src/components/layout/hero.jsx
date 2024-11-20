@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import brandLogoCombined from '../../assets/images/brand-logo-combined.svg';
-import heroGradient from '../../assets/motion/hero-gradient.mp4';
 
 const Hero = () => {
   const videoRef = useRef(null);
@@ -24,7 +23,7 @@ const Hero = () => {
         muted
         playsInline
       >
-        <source src={heroGradient} type="video/mp4" />
+        <source src="/src/assets/motion/hero-gradient.mp4" type="video/mp4" />
       </video>
 
       {/* Content Container with Fixed Padding */}
