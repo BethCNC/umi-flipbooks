@@ -27,6 +27,7 @@
     --layout-margins: 80px;
     --layout-gutter: 24px;
     --layout-grid-gap: 32px;
+<<<<<<< HEAD
 
     /* Colors - UMI Brand */
     --umi-peace-green-50: rgba(236, 242, 233, 1);
@@ -47,10 +48,41 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Neulis Cursive', serif;
+=======
+    --layout-hero-space-between: 48px;
+    --radius-l: 16px;
+
+    /* Colors - UMI Brand */
+    --umi-peace-green-50: #ecf2e9;
+    --umi-peace-green-500: #9fbf8f;
+    --umi-peace-green-900: #354030;
+    
+    --umi-rest-navy-50: #d2d5d9;
+    --umi-rest-navy-500: #1d2e40;
+    --umi-rest-navy-900: #0a0f15;
+    
+    --umi-calm-blue-50: #e7f1f2;
+    --umi-calm-blue-500: #86babf;
+    --umi-calm-blue-900: #2d3e40;
+
+    /* Text Colors */
+    --text-primary: var(--umi-rest-navy-900);
+    --text-secondary: var(--umi-rest-navy-500);
+  }
+
+  body {
+    @apply m-0 leading-normal font-neulis-sans text-text-primary;
+    padding-top: 81px; /* For fixed navbar */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-neulis-cursive;
+>>>>>>> 601d8483f5fd200a4f5b6363cc4ce7f926768761
   }
 }
 
 @layer components {
+<<<<<<< HEAD
   /* Add padding to body to account for fixed navbar */
   body {
     @apply pt-[81px]; /* Match navbar height */
@@ -58,5 +90,110 @@
 
   .container {
     @apply max-w-[var(--layout-width)] mx-auto px-4 md:px-6 lg:px-8;
+=======
+  .container {
+    @apply max-w-[var(--layout-width)] mx-auto px-4 md:px-[var(--layout-margins)];
+  }
+
+  .glass-card {
+    @apply rounded-[16px];
+    background: linear-gradient(115.69deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.4) 100%);
+    opacity: 0.8;
+    backdrop-filter: blur(120px);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  /* Add responsive image base styles */
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: var(--radius-l);
+    background-color: var(--color-surface);
+  }
+
+  /* Add responsive container styles */
+  .image-container {
+    width: 100%;
+    max-width: calc(100vw - (var(--layout-margins) * 2));
+    margin: 0 auto;
+    padding: 0 var(--layout-margins);
+  }
+
+  /* Responsive breakpoints matching your design */
+  @media (min-width: 768px) {
+    .image-container {
+      max-width: calc(100vw - (var(--layout-margins-mx) * 2));
+      padding: 0 var(--layout-margins-mx);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .image-container {
+      max-width: 1280px;
+    }
+  }
+
+  /* Base responsive image container */
+  .responsive-image-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  /* Desktop aspect ratios */
+  @media (min-width: 1024px) {
+    .aspect-hero {
+      aspect-ratio: 16/9;
+    }
+    
+    .aspect-single {
+      aspect-ratio: 1/1;
+    }
+    
+    .aspect-content {
+      aspect-ratio: 5/4;
+    }
+  }
+
+  /* Tablet aspect ratios */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .aspect-hero {
+      aspect-ratio: 4/3;
+    }
+    
+    .aspect-single {
+      aspect-ratio: 1/1;
+    }
+    
+    .aspect-content {
+      aspect-ratio: 3/2;
+    }
+  }
+
+  /* Mobile aspect ratios */
+  @media (max-width: 767px) {
+    .aspect-hero {
+      aspect-ratio: 3/4;
+    }
+    
+    .aspect-single {
+      aspect-ratio: 1/1;
+    }
+    
+    .aspect-content {
+      aspect-ratio: 4/5;
+    }
+  }
+
+  /* Image styling */
+  .responsive-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--radius-l);
+>>>>>>> 601d8483f5fd200a4f5b6363cc4ce7f926768761
   }
 }
