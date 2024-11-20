@@ -37,9 +37,6 @@ const Hero = () => {
             <h1 className="text-[64px] font-neulisCursive text-[#1e293b] leading-tight mb-6">
               Bridging the gap between traditional medical care & holistic wellness
             </h1>
-            <p className="text-xl font-neulisSans text-[#1e293b]/80">
-              Experience a new approach to healthcare that combines the best of both worlds
-            </p>
           </div>
 
           {/* Logo */}
