@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-<<<<<<< HEAD
-  body {
-    @apply leading-[normal] m-0;
-=======
   /* Font faces */
   @font-face {
     font-family: 'Neulis Sans';
@@ -189,6 +185,5 @@
 @media (max-width: 767px) {
   .aspect-hero {
     aspect-ratio: 3/4;
->>>>>>> 601d8483f5fd200a4f5b6363cc4ce7f926768761
   }
 }
