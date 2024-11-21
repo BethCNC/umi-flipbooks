@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Layout */
+    --layout-margins: 2rem;
+    --layout-gutter: 3rem;
+    --layout-margins-mx: 80px;
+    --layout-margins-my: 80px;
+    --layout-hero-space-between: 64px;
+    --layout-hero-max-width-tagline: 467px;
+    --layout-hero-logo-width: 177px;
+
+    /* Border Radius */
+    --radius-l: 1rem;
+
+    /* Glass Card Properties */
+    --glass-card-opacity: 80%;
+    --glass-card-blur: 120px;
+    --glass-card-border: 1px;
+    --glass-card-radius: 16px;
+    --glass-background-start: rgba(255, 255, 255, 0.5);
+    --glass-background-end: rgba(255, 255, 255, 1);
+    --glass-border-start: rgba(255, 255, 255, 0.35);
+    --glass-border-end: rgba(255, 255, 255, 0.28);
+    --glass-shadow-color: rgba(0, 0, 0, 0.1);
+    --glass-shadow-y: 20px;
+    --glass-shadow-blur: 20px;
+
+    /* Typography - 9XL */
+    --text-9-x-l--thin: 128px;
+    --text-9-x-l--extra-light: 128px;
+    --text-9-x-l--light: 128px;
+    --text-9-x-l--regular: 128px;
+    --text-9-x-l--medium: 128px;
+    --text-9-x-l--semi-bold: 128px;
+    --text-9-x-l--bold: 128px;
+    --text-9-x-l--extra-bold: 128px;
+    --text-9-x-l--black: 128px;
+    --text-9-x-l--line-height: 156px;
+
+    /* Typography - 8XL */
+    --text-8-x-l--thin: 96px;
+    --text-8-x-l--extra-light: 96px;
+    --text-8-x-l--light: 96px;
+    --text-8-x-l--regular: 96px;
+    --text-8-x-l--medium: 96px;
+    --text-8-x-l--semi-bold: 96px;
+    --text-8-x-l--bold: 96px;
+    --text-8-x-l--extra-bold: 96px;
+    --text-8-x-l--black: 96px;
+    --text-8-x-l--line-height: 120px;
+
+    /* Typography - 6XL */
+    --text-6-x-l--thin: 60px;
+    --text-6-x-l--extra-light: 60px;
+    --text-6-x-l--light: 60px;
+    --text-6-x-l--regular: 60px;
+    --text-6-x-l--medium: 60px;
+    --text-6-x-l--semi-bold: 60px;
+    --text-6-x-l--bold: 60px;
+    --text-6-x-l--extra-bold: 60px;
+    --text-6-x-l--black: 60px;
+    --text-6-x-l--line-height: 72px;
+
+    /* Typography - XS */
+    --text-xs--thin: 12px;
+    --text-xs--extra-light: 12px;
+    --text-xs--light: 12px;
+    --text-xs--regular: 12px;
+    --text-xs--medium: 12px;
+    --text-xs--semi-bold: 12px;
+    --text-xs--bold: 12px;
+    --text-xs--extra-bold: 12px;
+    --text-xs--black: 12px;
+    --text-xs--line-height: 16px;
+
+    /* Fonts */
+    --font-neulis-cursive: 'Neulis Cursive', cursive;
+    --font-neulis-sans: 'Neulis Sans', sans-serif;
+  }
+
+  body {
+    @apply leading-[normal] m-0 font-neulis-sans text-umi-red-900;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply rounded-[var(--glass-card-radius)];
+    opacity: var(--glass-card-opacity);
+    background: linear-gradient(
+      115.69deg,
+      var(--glass-background-start),
+      var(--glass-background-end)
+    );
+    border: var(--glass-card-border) solid transparent;
+    border-image: linear-gradient(
+      180deg,
+      var(--glass-border-start),
+      var(--glass-border-end)
+    ) 1;
+    backdrop-filter: blur(var(--glass-card-blur));
+    box-shadow: 0 var(--glass-shadow-y) var(--glass-shadow-blur) var(--glass-shadow-color);
+  }
+
+  .hero-heading {
+    @apply font-neulis-cursive text-text-secondary;
+    font-size: var(--text-8-x-l--extra-bold);
+    line-height: var(--text-8-x-l--line-height);
+  }
+
+  .hero-tagline {
+    @apply font-neulis-cursive text-text-secondary;
+    font-size: var(--text-6-x-l--regular);
+    line-height: var(--text-6-x-l--line-height);
+    max-width: var(--layout-hero-max-width-tagline);
+  }
+
+  .hero-logo {
+    width: var(--layout-hero-logo-width);
+    height: auto;
+  }
+}

@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Neulis Sans';
+  src: url('../fonts/NeulisSans-Regular.woff2') format('woff2'),
+       url('../fonts/NeulisSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neulis Cursive';
+  src: url('../fonts/NeulisCursive-Regular.woff2') format('woff2'),
+       url('../fonts/NeulisCursive-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Layout Dimensions */
+    --layout-width: 1280px;
+    --layout-container-width: 1120px;
+    --layout-content-height: 893px;
+
+    /* Typography */
+    --heading-line-height: 1.2;
+    --tagline-line-height: 1.5;
+    --heading-font-size: 96px;
+    --tagline-font-size: 48px;
+
+    /* Spacing System */
+    --space-80: 80px;
+    --space-24: 24px;
+    --space-32: 32px;
+    --space-48: 48px;
+
+    /* Layout Spacing */
+    --layout-margins: var(--space-80);
+    --layout-margins-mx: var(--space-80);
+    --layout-margins-my: var(--space-80);
+    --layout-gutter: var(--space-24);
+    --layout-grid-gap: var(--space-32);
+    --layout-hero-space-between: var(--space-48);
+
+    /* Component Specific */
+    --heading-padding-x: var(--space-24);
+    --tagline-width: 564px;
+    --logo-width: 202px;
+    --logo-height: 400px;
+
+    /* Glass Card Properties */
+    --glass-card-opacity: 0.8;
+    --glass-card-blur: 120px;
+    --glass-card-radius: 32px;
+    --glass-background-start: rgba(255, 255, 255, 1);
+    --glass-background-end: rgba(255, 255, 255, 0.5);
+    --glass-border-start: rgba(255, 255, 255, 0.35);
+    --glass-border-end: rgba(255, 255, 255, 0.28);
+    --glass-shadow-color: rgba(0, 0, 0, 0.1);
+    --glass-shadow-y: 20px;
+    --glass-shadow-spread: 0;
+    --glass-shadow-blur: 20px;
+
+    /* Colors - UMI Brand */
+    --umi-peace-green-50: #ecf2e9;
+    --umi-peace-green-500: #9fbf8f;
+    --umi-peace-green-900: #354030;
+    
+    --umi-rest-navy-50: #d2d5d9;
+    --umi-rest-navy-500: #1d2e40;
+    --umi-rest-navy-900: #0a0f15;
+    
+    --umi-calm-blue-50: #e7f1f2;
+    --umi-calm-blue-500: #86babf;
+    --umi-calm-blue-900: #2d3e40;
+
+    /* Text Colors */
+    --text-primary: var(--umi-rest-navy-900);
+    --text-secondary: var(--umi-rest-navy-500);
+  }
+
+  body {
+    @apply m-0 leading-normal font-neulis-sans text-text-primary;
+    padding-top: 81px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-neulis-cursive;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-[var(--layout-width)] mx-auto px-4 md:px-[var(--layout-margins)];
+  }
+
+  .glass-card {
+    border-radius: var(--glass-card-radius);
+    opacity: var(--glass-card-opacity);
+    background: linear-gradient(
+      180deg,
+      var(--glass-background-start) 50%,
+      var(--glass-background-end) 100%
+    );
+    border: 1px solid transparent;
+    border-image: linear-gradient(
+      180deg,
+      var(--glass-border-start),
+      var(--glass-border-end)
+    ) 1;
+    backdrop-filter: blur(var(--glass-card-blur));
+    box-shadow: 0 var(--glass-shadow-y) var(--glass-shadow-blur) var(--glass-shadow-spread) var(--glass-shadow-color);
+  }
+
+  .hero-glass-card {
+    @apply w-full max-w-[var(--layout-container-width)] min-h-[var(--layout-content-height)];
+  }
+
+  .hero-content {
+    @apply p-[var(--layout-margins)] flex flex-col items-center;
+  }
+
+  .hero-heading {
+    @apply px-[var(--heading-padding-x)] text-center font-neulis-cursive text-text-secondary;
+    font-size: var(--heading-font-size);
+    line-height: var(--heading-line-height);
+  }
+
+  .hero-tagline {
+    @apply font-neulis-cursive text-text-secondary max-w-[var(--tagline-width)];
+    font-size: var(--tagline-font-size);
+    line-height: var(--tagline-line-height);
+  }
+
+  .hero-logo {
+    @apply w-[var(--logo-width)] h-[var(--logo-height)] flex-shrink-0;
+  }
+}

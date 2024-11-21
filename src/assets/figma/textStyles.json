@@ -1,0 +1,1391 @@
+{
+  "fileName": "Umi",
+  "textStyles": [
+    {
+      "name": "text-9XL/thin",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Thin",
+      "fontSize": 128,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-9XL/extra light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Light",
+      "fontSize": 128,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-9XL/light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Light",
+      "fontSize": 128,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-9XL/regular",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Regular",
+      "fontSize": 128,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-9XL/medium",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Medium",
+      "fontSize": 128,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-9XL/semi bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Semi Bold",
+      "fontSize": 128,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-9XL/bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Bold",
+      "fontSize": 128,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-9XL/extra bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Bold",
+      "fontSize": 128,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-9XL/black",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Black",
+      "fontSize": 128,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-8XL/thin",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Thin",
+      "fontSize": 96,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-8XL/extra light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Light",
+      "fontSize": 96,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-8XL/light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Light",
+      "fontSize": 96,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-8XL/regular",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Regular",
+      "fontSize": 96,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-8XL/medium",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Medium",
+      "fontSize": 96,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-8XL/semi bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Semi Bold",
+      "fontSize": 96,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-8XL/bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Bold",
+      "fontSize": 96,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-8XL/extra bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Bold",
+      "fontSize": 96,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-8XL/black",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Black",
+      "fontSize": 96,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-7XL/thin",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Thin",
+      "fontSize": 72,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-7XL/extra light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Light",
+      "fontSize": 72,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-7XL/light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Light",
+      "fontSize": 72,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-7XL/regular",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Regular",
+      "fontSize": 72,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-7XL/medium",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Medium",
+      "fontSize": 72,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-7XL/semi bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Semi Bold",
+      "fontSize": 72,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-7XL/bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Bold",
+      "fontSize": 72,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-7XL/extra bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Bold",
+      "fontSize": 72,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-7XL/black",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Black",
+      "fontSize": 72,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-6XL/thin",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Hairline",
+      "fontSize": 60,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-6XL/extra light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Light",
+      "fontSize": 60,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-6XL/light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Light",
+      "fontSize": 60,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-6XL/regular",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Regular",
+      "fontSize": 60,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-6XL/medium",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Medium",
+      "fontSize": 60,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-6XL/semi bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Semi Bold",
+      "fontSize": 60,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-6XL/bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Bold",
+      "fontSize": 60,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-6XL/extra bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Bold",
+      "fontSize": 60,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-6XL/black",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Black",
+      "fontSize": 60,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-5XL/thin",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Hairline",
+      "fontSize": 48,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-5XL/extra light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Light",
+      "fontSize": 48,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-5XL/light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Light",
+      "fontSize": 48,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-5XL/regular",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Regular",
+      "fontSize": 48,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-5XL/medium",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Medium",
+      "fontSize": 48,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-5XL/semi bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Semi Bold",
+      "fontSize": 48,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-5XL/bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Bold",
+      "fontSize": 48,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-5XL/extra bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Bold",
+      "fontSize": 48,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-5XL/black",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Black",
+      "fontSize": 48,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-4XL/thin",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Hairline",
+      "fontSize": 36,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-4XL/extra light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Light",
+      "fontSize": 36,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-4XL/light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Light",
+      "fontSize": 36,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-4XL/regular",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Regular",
+      "fontSize": 36,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-4XL/medium",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Medium",
+      "fontSize": 36,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-4XL/semi bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Semi Bold",
+      "fontSize": 36,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-4XL/bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Bold",
+      "fontSize": 36,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-4XL/extra bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Bold",
+      "fontSize": 36,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-4XL/black",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Black",
+      "fontSize": 36,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-3XL/thin",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Hairline",
+      "fontSize": 30,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-3XL/extra light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Light",
+      "fontSize": 30,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-3XL/light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Light",
+      "fontSize": 30,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-3XL/regular",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Regular",
+      "fontSize": 30,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-3XL/medium",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Medium",
+      "fontSize": 30,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-3XL/semi bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Semi Bold",
+      "fontSize": 30,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-3XL/bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Bold",
+      "fontSize": 30,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-3XL/extra bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Bold",
+      "fontSize": 30,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-3XL/black",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Black",
+      "fontSize": 30,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-2XL/thin",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Hairline",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-2XL/extra light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Light",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-2XL/light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Light",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-2XL/regular",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Regular",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-2XL/medium",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Medium",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-2XL/semi bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Semi Bold",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-2XL/bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Bold",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-2XL/extra bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Bold",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-2XL/black",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Black",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-XL/thin",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Hairline",
+      "fontSize": 20,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-XL/extra light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Light",
+      "fontSize": 20,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-XL/light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Light",
+      "fontSize": 20,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-XL/regular",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Regular",
+      "fontSize": 20,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-XL/medium",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Medium",
+      "fontSize": 20,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-XL/semi bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Semi Bold",
+      "fontSize": 20,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-XL/bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Bold",
+      "fontSize": 20,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-XL/extra bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Bold",
+      "fontSize": 20,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-XL/black",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Black",
+      "fontSize": 20,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L-Cursive/black",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Black",
+      "fontSize": 19,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L-Cursive/extrabold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Bold",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L-Cursive/bold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Bold",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L-Cursive/semibold",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Semi Bold",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L-Cursive/medium",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Medium",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L-Cursive/normal",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Regular",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L-Cursive/light",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Light",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L-Cursive/extralight",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Extra Light",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L-Cursive/thin",
+      "fontFamily": "Neulis Cursive",
+      "fontWeight": "Thin",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L/thin",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Hairline",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L/extra light",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Extra Light",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L/light",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Light",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L/regular",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Regular",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L/medium",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Medium",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L/semi bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Semi Bold",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L/bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Bold",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L/extra bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Extra Bold",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-L/black",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Black",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-base/thin",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Hairline",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-base/extra light",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Extra Light",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-base/light",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Light",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-base/regular",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Regular",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-base/medium",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Medium",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-base/semi bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Semi Bold",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-base/bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Bold",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-base/extra bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Extra Bold",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-base/black",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Black",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-SM/thin",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Thin",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-SM/extra light",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Extra Light",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-SM/light",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Light",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-SM/regular",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Regular",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-SM/medium",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Medium",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-SM/semi bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Semi Bold",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-SM/bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Bold",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-SM/extra bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Extra Bold",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-SM/black",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Black",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-xs/thin",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Thin",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-xs/extra light",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Extra Light",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-xs/light",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Light",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-xs/regular",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Regular",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-xs/medium",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Medium",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-xs/semi bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Semi Bold",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-xs/bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Bold",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-xs/extra bold",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Extra Bold",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "text-xs/black",
+      "fontFamily": "Neulis Sans",
+      "fontWeight": "Black",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    }
+  ]
+}
